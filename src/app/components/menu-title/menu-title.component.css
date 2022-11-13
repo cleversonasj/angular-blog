@@ -1,13 +1,25 @@
 main{
-  color: #ffffff;
+  background-color: #ffffff;
 }
 
 main > h1{
-  margin: 15px 0;
-  font-size: 180px;
+  margin: 10px 0 50px 0;
+  font-size: 11rem;
   text-align: center;
+  color: #000000;
+  background-color: #ffffff;
 }
 
 main > hr{
   margin: 20px 0;
+}
+
+@media screen and (max-width: 1300px) {
+  main > h1{
+    margin: 10px 0 25px 0;
+    font-size: 3rem;
+    text-align: center;
+    color: #000000;
+    background-color: #ffffff;
+  }
 }

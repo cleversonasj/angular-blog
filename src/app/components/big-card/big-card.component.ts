@@ -7,7 +7,8 @@ import { Component, OnInit } from '@angular/core';
 })
 export class BigCardComponent implements OnInit {
 
-  card: {image: string, date: string, title: string, description: string} = {
+  card: {id: number,image: string, date: string, title: string, description: string} = {
+    id: 1,
     image: 'https://img.freepik.com/vetores-gratis/desenvolvedores-web-desenhados-a-mao_23-2148819604.jpg?w=2000',
     date: '12/11/2012',
     title: 'Mercado em alta para Desenvolvedores',

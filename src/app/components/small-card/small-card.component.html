@@ -3,7 +3,7 @@
     <img src="{{card.image}}" alt="{{card.title}}" width="250px" height="200px">
     <div class="content-info">
       <span>{{card.date}}</span>
-      <h2><a href="#" target="_blank">{{card.title}}</a></h2>
+      <h2><a [routerLink]="['conteudo', card.id]">{{card.title}}</a></h2>
       <p>
         {{card.description}}
       </p>

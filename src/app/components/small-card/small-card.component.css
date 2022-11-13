@@ -33,3 +33,14 @@ article img {
 .content-info h2 a{
   text-decoration: none;
 }
+
+@media screen and (max-width: 1300px) {
+  main{
+    width: 100%;
+    text-align: center;
+  }
+  article{
+    flex-direction: column;
+    align-items: center;
+  }
+}
