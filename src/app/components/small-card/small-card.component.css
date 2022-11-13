@@ -1,0 +1,32 @@
+article{
+  display: flex;
+  margin: 10px 0;
+  align-items: center;
+}
+
+:is(.content-info span, .content-info h2, .content-info p){
+  margin: 3px 0;
+  padding: 0 15px;
+}
+
+article img {
+  border-radius: 30px;
+  margin: 0px 20px;
+}
+
+.content-info{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}
+
+.content-info span{
+  font-size: .8rem;
+  font-weight: 600;
+  color: rgb(135, 134, 134)
+}
+
+.content-info h2 a{
+  text-decoration: none;
+}

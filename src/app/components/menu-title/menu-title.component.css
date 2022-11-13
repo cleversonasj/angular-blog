@@ -1,0 +1,13 @@
+main{
+  color: #ffffff;
+}
+
+main > h1{
+  margin: 15px 0;
+  font-size: 180px;
+  text-align: center;
+}
+
+main > hr{
+  margin: 20px 0;
+}

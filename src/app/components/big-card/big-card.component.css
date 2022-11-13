@@ -1,0 +1,31 @@
+main{
+  width: 500px;
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+:is(main img, main h2, main p){
+  margin: 8px 0;
+  padding: 0 15px;
+}
+
+main > img {
+  width: 100%;
+  border-radius: 30px;
+}
+
+main > span{
+  font-size: .8rem;
+  font-weight: 600;
+  color: rgb(135, 134, 134)
+}
+
+main h2 a{
+  text-decoration: none;
+}
+
+main > p{
+  color: rgb(135, 134, 134)
+}
